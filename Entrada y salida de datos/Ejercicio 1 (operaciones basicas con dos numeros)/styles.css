@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #efefef;
+    font-family: sans-serif;
+}
+
+div.contenedor {
+    max-width: 500px;
+    margin: 5% auto;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #555555;
+}
+
+header,
+article,
+form {
+    margin-bottom: 10px;
+}
+
+form div.entradas {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+form div.entrada input {
+    width: 50%;
+    padding: 3px;
+    margin: 5px;
+    font-size: 18px;
+    text-align: center;
+    outline: none;
+}
+
+form div.boton input {
+    padding: 3px;
+}
+
+div.contenedor-solucion {
+    background-color: #efefef;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: left;
+    display: none;
+}

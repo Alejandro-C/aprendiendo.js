@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #dedede;
+}
+
+div.contenedor {
+    width: 95%;
+    max-width: 700px;
+    margin: 5% auto;
+    padding: 10px 5px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px #777777;
+    border-radius: 10px;
+}
+
+header h1,
+p,
+div.caja-numero,
+div.boton {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    font-size: 18px;
+}
+
+input,
+button {
+    text-align: center;
+    padding: 5px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span.contenedor-tablas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+span.contenedor-tablas div.tarjeta-tabla {
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+div.tarjeta-tabla p {
+    margin: 0;
+}
+
+div.caja-solucion {
+    width: 90%;
+    margin: 10px auto 5px;
+    padding: 5px;
+    text-align: center;
+    background-color: #eeeeee;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    display: none;
+}
